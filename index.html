@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <script type="module" src="/index.js"></script>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <modal-component>
+            <slider-image-component slot="slider-image">
+                <img src="/img/asta.jpg" alt="Imagen 1" slot="swiper-image">
+            </slider-image-component>
+            <div class="modal-content">
+                <swiper-info-component slot="info">
+                    <swiper-button-component slot="checkout"></swiper-button-component>
+                </swiper-info-component>
+                <swiper-form-component slot="form"></swiper-form-component>
+            </div>
+        </modal-component>
+
+
+        <!--  --------------------------------------------------------------------------------  -->
+        <!-- <div class="modal-container active">
+            <div class="modal">
+                <div class="modal-close-button">
+                    <button class="close-button">X</button>
+                </div> 
+                    <div class="modal-return-button">
+                        <button class="return-button">←</button>
+                    </div>
+                </div>
+            
+                <slider-image-component>
+                    <img src="/img/asta.jpg" alt="Imagen 1" slot="swiper-image">
+                </slider-image-component>
+                <div class="modal-content">
+                    <swiper-info-component>
+                        <swiper-button-component slot="checkout"></swiper-button-component>
+                    </swiper-info-component>
+                    <swiper-form-component></swiper-form-component>
+                </div>
+            </div> -->
+        </div>
+        
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
